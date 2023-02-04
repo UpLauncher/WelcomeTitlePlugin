@@ -1,0 +1,37 @@
+#Config of WelcomeTitlePlugin
+#WelcomeTitlePlugin の設定
+
+enabled: true
+welcome-title:
+  title: "&eWelcome!"
+  sub-title: "Welcome to this server."
+  fadein: 20 #sec / 秒
+  time: 70 #sec / 秒
+  fadeout: 20 #sec / 秒
+messages:
+  prefix: [WT] 
+  no-permission: "&cYou have no permission to use this command."
+  reloading: "&eReload the settings..."
+  reloaded: "&eThe settings have been reloaded."
+  plugin-enabling-info-first: "Running on"
+  plugin-enabling-info-final: ""
+  purpur-title: "-------Use Purpur-------"
+  purpur-desc1: "By using Purpur, you can get a higher performance "
+  purpur-desc2: "and convenient and simple features than Paper."
+  purpur-desc3: "TPSBAR can be attached by default or change the server name."
+  unknown-title: "-------Unknown Bukkit-------"
+  unknown-desc1: "This unknown Bukkit cannot be executed because it has not been confirmed."
+  unknown-desc2: "I recommend Purpur: https://purpurmc.org"
+  plugin-enabled: "&bWelcomeTitlePlugin &ais now enabled."
+  plugin-disabled: "&bWelcomeTitlePlugin &ahas been disabled."
+  help-title: "&bWelcomeTitlePlugin - Help"
+  help-desc: "Use the following command to operate this plugin."
+  help-cmd1: "&c/wt help &rDisplays this help."
+  help-cmd2: "&c/wt version &rDisplays the version of this plugin."
+  help-cmd3: "&c/wtreload &rReload this plugin settings."
+  version-title: "&bWelcomeTitlePlugin"
+  version-wt: "Version:"
+  version-bukkit: "Bukkit:"
+  
+
+
