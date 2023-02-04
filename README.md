@@ -11,15 +11,20 @@ A plugin that sends the title when a player joins the server.
 2. Reload the server or restart the server to enable the plugin.
 3. [Optional] Change the message in config.yml.
 
+### For use in English
+Download from below and replace config.yml.
+
+<ins>[config.yml (remove .txt)](https://raw.githubusercontent.com/raisandesu/WTP/master/config.yml)</ins>
+
 ### Links
 Support: contact@raisandesu.com or github issues
 
 ### Commands
-/wt help : You can see help for this plugin.<br>
-/wt version : You can see the version of this plugin.<br>
-/wtreload : Reload the settings for this plugin.
+<ins>/wt help</ins> : You can see help for this plugin.<br>
+<ins>/wt version</ins> : You can see the version of this plugin.<br>
+<ins>/wtreload</ins> : Reload the settings for this plugin.
 
 ### Permissions
-wt.commands.reload : Allows reloading of settings.<br>
-wt.commands.standard : Allows you to see help and version.<br>
-wt.commands.show : Allows the title to be displayed.
+<ins>wt.commands.reload</ins> : Allows reloading of settings.<br>
+<ins>wt.commands.standard</ins> : Allows you to see help and version.<br>
+<ins>wt.commands.show</ins> : Allows the title to be displayed.
