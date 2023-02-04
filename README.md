@@ -1,4 +1,4 @@
-<strong>Currently available only in Japanese.</strong>
+<strong>Replace config.yml to English.</strong>
 
 ![WelcomeTitlePlugin](https://user-images.githubusercontent.com/89285532/216763298-78a36ac5-72c2-4dc6-800f-8bda5b110460.png)
 
