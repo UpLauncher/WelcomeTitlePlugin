@@ -12,7 +12,6 @@ A plugin that sends the title when a player joins the server.
 3. [Optional] Change the message in config.yml.
 
 ### Links
-GitHub (Source): https://github.com/raisandesu/WelcomeTitlePlugin<br>
 Support: contact@raisandesu.com or github issues
 
 ### Commands
