@@ -1,0 +1,33 @@
+name: WelcomeTitlePlugin
+version: 1.0.0
+main: com.raisandesu.welcometitleplugin.welcometitleplugin
+api-version: 1.16
+author: raisandesu
+depend: []
+load: POSTWORLD
+website: "https://github.com/raisandesu/welcometitleplugin"
+description: サーバーに参加した時に、タイトルメッセージを表示します。
+commands:
+    wtreload:
+        usage: /wtreload
+        description: "このプラグインの設定を再読み込みします。"
+    wt:
+        usage: /wt [help, version]
+        description: "このプラグインのヘルプなどを見ることができます。"
+    wt help:
+        usage: /wt help
+        description: "このプラグインのヘルプを見ることができます。"
+    wt version:
+        usage: /wt version
+        description: "このプラグインのバージョンを見ることができます。"
+
+permissions:
+    wt.commands.reload:
+        default: false
+        description: 設定を再読み込みできるようにします。
+    wt.commands.standard:
+        default: true
+        description: ヘルプとバージョンを見れるようにします。
+    wt.show:
+        default: true
+        description: タイトルが表示できるようにします。

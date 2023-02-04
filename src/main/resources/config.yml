@@ -1,0 +1,17 @@
+#Config of WelcomeTitlePlugin
+#WelcomeTitlePlugin の設定
+
+enabled: true
+welcome-title:
+  title: "&eようこそ！"
+  sub-title: "このサーバーへようこそ。"
+  fadein: 20 #sec / 秒
+  time: 70 #sec / 秒
+  fadeout: 20 #sec / 秒
+messages:
+  prefix: [WT] 
+  no-permission: "&cこのコマンドを使用する権限がありません。"
+  reloading: "&e設定を再読み込みします..."
+  reloaded: "&e設定を再読み込みしました。"
+
+
