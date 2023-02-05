@@ -12,7 +12,11 @@
     <name>WelcomeTitlePlugin</name>
 
     <properties>
+<<<<<<< Updated upstream
         <java.version>16</java.version>
+=======
+        <java.version>17</java.version>
+>>>>>>> Stashed changes
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
@@ -60,6 +64,7 @@
         <dependency>
             <groupId>org.spigotmc</groupId>
             <artifactId>spigot-api</artifactId>
+<<<<<<< Updated upstream
             <version>1.16.4-R0.1-SNAPSHOT</version>
             <scope>provided</scope>
         </dependency>
@@ -68,6 +73,11 @@
             <artifactId>jfiglet</artifactId>
             <version>0.0.8</version>
         </dependency>
+=======
+            <version>1.19.3-R0.1-SNAPSHOT</version>
+            <scope>provided</scope>
+        </dependency>
+>>>>>>> Stashed changes
     </dependencies>
     
 </project>
