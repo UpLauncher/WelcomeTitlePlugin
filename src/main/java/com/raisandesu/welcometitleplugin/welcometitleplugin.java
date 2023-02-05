@@ -21,7 +21,11 @@ public final class welcometitleplugin extends JavaPlugin implements Listener {
         if (Bukkit.getVersion().contains("Spigot")) {
             logger.info("");
             logger.info(ChatColor.GREEN + " \\ \\      / /_   _|");
+<<<<<<< Updated upstream
             logger.info(ChatColor.GREEN + "  \\ \\ /\\ / /  | |   " + ChatColor.AQUA + "WT" + ChatColor.GREEN + " version " + version);
+=======
+            logger.info(ChatColor.GREEN + "  \\ \\ /\\ / /  | |   " + ChatColor.AQUA + "WT" + ChatColor.GREEN + " version " + version + " (1.19.3 only)");
+>>>>>>> Stashed changes
             if (this.getConfig().getString("messages.plugin-enabling-info-first") == "") {
                 logger.info(ChatColor.GREEN + "   \\ V  V /   | |   Bukkit - Spigot " + ChatColor.translateAlternateColorCodes('&', this.getConfig().getString("messages.plugin-enabling-info-final")));
             } else {
@@ -36,7 +40,11 @@ public final class welcometitleplugin extends JavaPlugin implements Listener {
             logger.warning(ChatColor.translateAlternateColorCodes('&', prefix + this.getConfig().getString("messages.purpur-desc3")));
         } else if (Bukkit.getVersion().contains("Paper")) {
             logger.info(ChatColor.GREEN + " \\ \\      / /_   _|");
+<<<<<<< Updated upstream
             logger.info(ChatColor.GREEN + "  \\ \\ /\\ / /  | |   " + ChatColor.AQUA + "WT" + ChatColor.GREEN + " version " + version);
+=======
+            logger.info(ChatColor.GREEN + "  \\ \\ /\\ / /  | |   " + ChatColor.AQUA + "WT" + ChatColor.GREEN + " version " + version + " (1.19.3 only)");
+>>>>>>> Stashed changes
             if (this.getConfig().getString("messages.plugin-enabling-info-first") == "") {
                 logger.info(ChatColor.GREEN + "   \\ V  V /   | |   Bukkit - Paper " + ChatColor.translateAlternateColorCodes('&', this.getConfig().getString("messages.plugin-enabling-info-final")));
             } else {
@@ -50,7 +58,11 @@ public final class welcometitleplugin extends JavaPlugin implements Listener {
             logger.warning(ChatColor.translateAlternateColorCodes('&', prefix + this.getConfig().getString("messages.purpur-desc3")));
         } else if (Bukkit.getVersion().contains("Purpur")) {
             logger.info(ChatColor.GREEN + " \\ \\      / /_   _|");
+<<<<<<< Updated upstream
             logger.info(ChatColor.GREEN + "  \\ \\ /\\ / /  | |   " + ChatColor.AQUA + "WT" + ChatColor.GREEN + " version " + version);
+=======
+            logger.info(ChatColor.GREEN + "  \\ \\ /\\ / /  | |   " + ChatColor.AQUA + "WT" + ChatColor.GREEN + " version " + version + " (1.19.3 only)");
+>>>>>>> Stashed changes
             if (this.getConfig().getString("messages.plugin-enabling-info-first") == "") {
                 logger.info(ChatColor.GREEN + "   \\ V  V /   | |   Bukkit - Purpur " + ChatColor.translateAlternateColorCodes('&', this.getConfig().getString("messages.plugin-enabling-info-final")));
             } else {
