@@ -1,11 +1,11 @@
-package com.raisandesu.welcometitleplugin;
+package tech.raic.welcometitleplugin;
 
 import java.util.logging.Logger;
 import org.bukkit.Bukkit;
 import org.bukkit.event.Listener;
 import org.bukkit.plugin.java.JavaPlugin;
 
-import com.raisandesu.welcometitleplugin.commands.*;
+import tech.raic.welcometitleplugin.commands.*;
 
 import net.md_5.bungee.api.ChatColor;
 
@@ -21,11 +21,7 @@ public final class welcometitleplugin extends JavaPlugin implements Listener {
         if (Bukkit.getVersion().contains("Spigot")) {
             logger.info("");
             logger.info(ChatColor.GREEN + " \\ \\      / /_   _|");
-<<<<<<< Updated upstream
             logger.info(ChatColor.GREEN + "  \\ \\ /\\ / /  | |   " + ChatColor.AQUA + "WT" + ChatColor.GREEN + " version " + version);
-=======
-            logger.info(ChatColor.GREEN + "  \\ \\ /\\ / /  | |   " + ChatColor.AQUA + "WT" + ChatColor.GREEN + " version " + version + " (1.19.3 only)");
->>>>>>> Stashed changes
             if (this.getConfig().getString("messages.plugin-enabling-info-first") == "") {
                 logger.info(ChatColor.GREEN + "   \\ V  V /   | |   Bukkit - Spigot " + ChatColor.translateAlternateColorCodes('&', this.getConfig().getString("messages.plugin-enabling-info-final")));
             } else {
@@ -40,11 +36,7 @@ public final class welcometitleplugin extends JavaPlugin implements Listener {
             logger.warning(ChatColor.translateAlternateColorCodes('&', prefix + this.getConfig().getString("messages.purpur-desc3")));
         } else if (Bukkit.getVersion().contains("Paper")) {
             logger.info(ChatColor.GREEN + " \\ \\      / /_   _|");
-<<<<<<< Updated upstream
             logger.info(ChatColor.GREEN + "  \\ \\ /\\ / /  | |   " + ChatColor.AQUA + "WT" + ChatColor.GREEN + " version " + version);
-=======
-            logger.info(ChatColor.GREEN + "  \\ \\ /\\ / /  | |   " + ChatColor.AQUA + "WT" + ChatColor.GREEN + " version " + version + " (1.19.3 only)");
->>>>>>> Stashed changes
             if (this.getConfig().getString("messages.plugin-enabling-info-first") == "") {
                 logger.info(ChatColor.GREEN + "   \\ V  V /   | |   Bukkit - Paper " + ChatColor.translateAlternateColorCodes('&', this.getConfig().getString("messages.plugin-enabling-info-final")));
             } else {
@@ -58,11 +50,7 @@ public final class welcometitleplugin extends JavaPlugin implements Listener {
             logger.warning(ChatColor.translateAlternateColorCodes('&', prefix + this.getConfig().getString("messages.purpur-desc3")));
         } else if (Bukkit.getVersion().contains("Purpur")) {
             logger.info(ChatColor.GREEN + " \\ \\      / /_   _|");
-<<<<<<< Updated upstream
             logger.info(ChatColor.GREEN + "  \\ \\ /\\ / /  | |   " + ChatColor.AQUA + "WT" + ChatColor.GREEN + " version " + version);
-=======
-            logger.info(ChatColor.GREEN + "  \\ \\ /\\ / /  | |   " + ChatColor.AQUA + "WT" + ChatColor.GREEN + " version " + version + " (1.19.3 only)");
->>>>>>> Stashed changes
             if (this.getConfig().getString("messages.plugin-enabling-info-first") == "") {
                 logger.info(ChatColor.GREEN + "   \\ V  V /   | |   Bukkit - Purpur " + ChatColor.translateAlternateColorCodes('&', this.getConfig().getString("messages.plugin-enabling-info-final")));
             } else {
@@ -78,7 +66,6 @@ public final class welcometitleplugin extends JavaPlugin implements Listener {
         }
         logger.info(ChatColor.translateAlternateColorCodes('&', this.getConfig().getString("messages.plugin-enabled")));
         getServer().getPluginManager().registerEvents(new userjoined(this), this);
-        getCommand("wtreload").setExecutor(new wtreload(this));
         getCommand("wt").setExecutor(new wtCommand(this));
     }
 

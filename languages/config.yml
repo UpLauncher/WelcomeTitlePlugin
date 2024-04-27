@@ -28,10 +28,7 @@ messages:
   help-desc: "Use the following command to operate this plugin."
   help-cmd1: "&c/wt help &rDisplays this help."
   help-cmd2: "&c/wt version &rDisplays the version of this plugin."
-  help-cmd3: "&c/wtreload &rReload this plugin settings."
+  help-cmd3: "&c/wt reload &rReload this plugin settings."
   version-title: "&bWelcomeTitlePlugin"
   version-wt: "Version:"
   version-bukkit: "Bukkit:"
-  
-
-
